@@ -1,0 +1,15 @@
+{
+	"name": "markids:start",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"location": "markids:cross",
+				"processors": "markids:none",
+				"projection": "terrain_matching",
+				"element_type": "minecraft:legacy_single_pool_element"
+			}
+		}
+	]
+}

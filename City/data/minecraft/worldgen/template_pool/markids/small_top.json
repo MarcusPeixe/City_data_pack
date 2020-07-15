@@ -1,0 +1,24 @@
+{
+	"name": "markids:small_top",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"location": "markids:small_top",
+				"processors": "markids:none",
+				"projection": "rigid",
+				"element_type": "minecraft:legacy_single_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"location": "minecraft:empty",
+				"processors": "markids:none",
+				"projection": "rigid",
+				"element_type": "minecraft:legacy_single_pool_element"
+			}
+		}
+	]
+}
